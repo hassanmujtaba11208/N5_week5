@@ -1,0 +1,17 @@
+{
+  "project": "Full-Stack GenAI App: API + UI + Auth + Logging",
+  "backend": "FastAPI",
+  "frontend": "Streamlit (HTTP client only)",
+  "modes": [
+    "rag",
+    "agent"
+  ],
+  "authentication": "X-API-Key",
+  "rate_limiting": "per-key in-memory sliding window",
+  "structured_logs": [
+    "backend/logs/requests.jsonl",
+    "backend/logs/tool_events.jsonl"
+  ],
+  "tests": 9,
+  "external_api_key_required": false
+}
